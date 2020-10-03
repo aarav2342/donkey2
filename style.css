@@ -1,0 +1,51 @@
+* {
+    font-family: Arial;
+}
+
+header h1, main {
+    text-align: center;
+    width: 100%;
+}
+
+p {
+    line-height: 50%;
+}
+
+.canvas {
+	height: 500px;
+	overflow-y: auto;
+}
+
+table {
+	margin: auto;
+    background-color: black;
+}
+
+.points, .lives, .levels {
+    font-weight: bold;
+}
+
+td.floor {
+    background-color: rgb(119, 75, 155);
+    color: rgb(98, 0, 255);
+}
+
+td.stair {
+    background-color: blue;
+    color: blue;
+}
+
+td.background {
+	background-color: white ;
+	color: white;
+}
+
+td.player {
+	background-color: red;
+	color: red;
+}
+
+td.enemy {
+    background-color: rgb(180, 85, 17);
+	color: rgb(182, 84, 27);
+}
